@@ -1,0 +1,129 @@
+body {
+    background-color: #17a72a;
+}
+
+.header {
+    display: block;
+    text-align: center;
+}
+
+.container {    
+    display: block;     
+}
+
+#changing {
+    margin: -10px 0 15px 0;
+}
+
+.input {
+    width: 100%;        
+}
+
+.main {
+    display: block;
+    text-align: center;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.bloque {
+    display: block;
+    text-align: left;
+    width: 80%;     
+}
+
+.card {
+    width: 80px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 20px 10px 0 10px;
+}
+
+.card .number {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.spades::before {
+    content: '\2660';
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.spades::after {
+    content: '\2660';
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    transform: rotate(180deg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cubs::before {
+    content: '\2663';
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cubs::after {
+    content: '\2663';
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    transform: rotate(180deg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.hearts::before {
+    content: '\2665';    
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.hearts::after {
+    content: '\2665';    
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    transform: rotate(180deg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.diamonds::before {
+    content: '\2666';    
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.diamonds::after {
+    content: '\2666';    
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    transform: rotate(180deg);
+    border-radius: 10px 10px 0px 0px;
+}
